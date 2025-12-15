@@ -11,7 +11,8 @@ months_inactive = 8
 # Calculate how many full $20 bills and remaining dollars
 
 # Subtract withdrawal from balance
-balance=starting_balance-withdrawal_amount
+balance=starting_balance
+balance-=withdrawal_amount
 
 # Subtract ATM fee
 balance-=atm_fee
